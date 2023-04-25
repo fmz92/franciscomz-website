@@ -122,8 +122,7 @@
                 </span>
             </div>
         </div>
-        <div class="snap-start w-screen h-screen pt-24 px-10">
-
+        <div class="snap-start w-screen h-screen pt-20 sm:pt-24 px-10">
             <div class="w-full border-b border-white pb-2 border-opacity-25">
                 <span class="text-white font-semibold text-xl">Mis habilidades</span>
             </div>
@@ -144,7 +143,7 @@
                             <span class="absolute top-0 left-0 text-sm w-full text-center">95%</span>
                         </div> 
                     </div>
-                    <h3 class="text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
+                    <h3 class="text-xs sm:text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
                         <span class="my-auto pl-1">Laravel</span>
                     </h3>                    
                 </div>              
@@ -167,7 +166,7 @@
                             <span class="absolute top-0 left-0 text-sm w-full text-center">85%</span>
                         </div> 
                     </div>
-                    <h3 class="text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
+                    <h3 class="text-xs sm:text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
                         <span class="my-auto pl-1">HTML, CSS & Javascript</span>
                     </h3>                    
                 </div>              
@@ -185,7 +184,7 @@
                             <span class="absolute top-0 left-0 text-sm w-full text-center">80%</span>
                         </div> 
                     </div>
-                    <h3 class="text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
+                    <h3 class="text-xs sm:text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
                         <span class="my-auto pl-1">SQL Server & MySQL</span>
                     </h3>                    
                 </div>              
@@ -203,7 +202,7 @@
                             <span class="absolute top-0 left-0 text-sm w-full text-center">80%</span>
                         </div> 
                     </div>
-                    <h3 class="text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
+                    <h3 class="text-xs sm:text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
                         <span class="my-auto pl-1">Python</span>
                     </h3>                    
                 </div>              
@@ -221,7 +220,7 @@
                             <span class="absolute top-0 left-0 text-sm w-full text-center">70%</span>
                         </div> 
                     </div>
-                    <h3 class="text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
+                    <h3 class="text-xs sm:text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
                         <span class="my-auto pl-1">DJango</span>
                     </h3>                    
                 </div>              
@@ -239,16 +238,16 @@
                             <span class="absolute top-0 left-0 text-sm w-full text-center">80%</span>
                         </div> 
                     </div>
-                    <h3 class="text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
+                    <h3 class="text-xs sm:text-sm font-light pt-2 text-white flex flex-row justify-center text-opacity-70">
                         <span class="my-auto pl-1">VueJS</span>
                     </h3>                    
                 </div>              
             </div>
             
-            <div class="xl:scale-110 max-w-5xl py-10 mx-auto grid grid-cols-4 md:grid-cols-6 place-items-center gap-4 md:gap-10 text-white">
+            <div class="xl:scale-110 max-w-5xl sm:py-10 mx-auto grid grid-cols-4 md:grid-cols-6 place-items-center gap-4 md:gap-10 text-white">
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">TailwindCSS</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="currentColor" d="M12 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.31.74 1.91 1.35c.98 1 2.09 2.15 4.59 2.15c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C15.61 7.15 14.5 6 12 6m-5 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.3.74 1.91 1.35C8.39 16.85 9.5 18 12 18c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C10.61 13.15 9.5 12 7 12Z"/></svg>
@@ -256,7 +255,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">VMWare</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 32 32"><path fill="currentColor" d="M3.4 11C3 10.1 2 9.7 1 10.2s-1.3 1.4-.9 2.3l4 8.5c.6 1.3 1.3 2 2.5 2c1.3 0 1.9-.8 2.5-2c0 0 3.4-7.4 3.4-7.5c0-.1.1-.3.5-.3c.3 0 .5.2.5.6V21c0 1.1.6 2 1.8 2s1.8-.9 1.8-2v-6c0-1.1.8-1.9 1.9-1.9c1.1 0 1.9.8 1.9 1.9v6c0 1.1.6 2 1.8 2s1.8-.9 1.8-2v-6c0-1.1.8-1.9 1.9-1.9c1.1 0 1.9.8 1.9 1.9v6c0 1.1.6 2 1.8 2s1.8-.9 1.8-2v-6.8c0-2.5-2-4.2-4.4-4.2s-3.9 1.7-3.9 1.7c-.8-1-1.9-1.7-3.8-1.7c-2 0-3.7 1.7-3.7 1.7c-.8-1-2.2-1.7-3.3-1.7c-1.7 0-3.1.8-4 2.7l-2.5 5.9L3.4 11"/></svg>
@@ -264,7 +263,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">Bootstrap</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="currentColor" d="M11.79 11.5H9.72V8.19h2.47c1.26 0 1.96.56 1.96 1.59c0 1.12-.83 1.72-2.36 1.72m.37 1.13H9.72v3.64h2.56c1.56 0 2.38-.63 2.38-1.83s-.85-1.81-2.5-1.81M22 5.31v13.38C22 20.5 20.5 22 18.69 22H5.31C3.5 22 2 20.5 2 18.69V5.31C2 3.5 3.5 2 5.31 2h13.38C20.5 2 22 3.5 22 5.31m-6 9.19c0-1.38-.92-2.37-2.33-2.55v-.06c1-.18 1.79-1.18 1.79-2.26c0-1.55-1.2-2.58-2.96-2.58H8.43v10.36h4.04c2.21 0 3.53-1.09 3.53-2.91Z"/></svg>
@@ -272,7 +271,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">Laragon</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="currentColor" d="M12.843.979c-2.12-.096-3.477 1.439-3.477 1.439C2.52 2.5.791 8.429.75 8.552l-.248.74c-2.268 8.78 3.889 12.22 3.889 12.22c.188.091.375-.066.375-.066c.5-.31.252-.53.252-.53c-1.43-1.742-1.595-5.864-1.596-5.899c-.64-.532-1.248-1.318-1.111-2.342c0 0 .084-.51.584-.197c0 0 1.186.644 2.123.83c-.001 0 .476.043.5.177c0 0 .374 1.752-.78 2.32c.745.437 1.465.85 1.465.85c.124 1.263.81 5.32.81 5.32c.064.797.906.954.906.954c.483.172 4.12.062 4.12.062c1.014-.044 1.062-.953 1.062-.953c.015-.545.03-3.62.03-3.62c.096-.575.766-.5.766-.5c.703-.03.688.454.688.454c-.017.515.045 3.496.045 3.496c.03.858.781 1.125.781 1.125c.488 0 .828-.004 1.365 0c.252.002 1.473 0 1.473 0c.55-.307 1.377-.969 1.377-.969c5.868-4.91 4.135-11.9 4.135-11.9C22.93 5.88 17.792 5.1 17.792 5.1c-.582-1.811-1.643-2.682-1.643-2.682c-1.222-1.015-2.343-1.396-3.306-1.44zm5.006 4.273s1.845 3.08-1.727 7.86c.001.001-2.94 4.116-8.232 1.223c1.084.523 5.536 2.312 8.375-1.98c0 0 2.632-3.437 1.584-7.103zM6.703 8.868s1.296.036 1.341 1.82c0 0-1.02-2.668-3.271-.2c0 0 .404-1.729 1.93-1.62z"/></svg>
@@ -280,7 +279,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">VirtualBox</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 512 512"><path fill="currentColor" d="M0 0v512h511.308V0H0zm471.177 40.13v252.69h-58.513L338.266 69.666l-54.071 147.912l-50.92-147.163l-65.702 239.958l-41.128-131.31H40.131V40.13h431.046zM40.131 471.87V219.193h56.83l73.198 233.7l67.584-246.837l45.415 131.246l53.365-145.981l47.218 141.629h87.436v138.919H40.131z"/></svg>
@@ -288,7 +287,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">Docker</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 640 512"><path fill="currentColor" d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4c-3.3-24-16.7-44.9-41.1-63.7l-14-9.3l-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8c-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1c37.1 43.9 92.7 66.2 165.4 66.2c157.4 0 273.9-72.5 328.4-204.2c21.4.4 67.6.1 91.3-45.2c1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
@@ -296,7 +295,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">GitHub</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
@@ -304,7 +303,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">JQuery</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="currentColor" d="M22.88 10.41a5.005 5.005 0 0 1-7.04-.62c-1.78-2.12-1.5-5.29.61-7.04l.51-.38A5.024 5.024 0 0 0 16.8 9c1.63 1.94 4.45 2.32 6.54.97l-.46.44M21.1 14.5a7.48 7.48 0 0 1-10.56-.92c-2.67-3.17-2.25-7.9.92-10.58l.92-.64a7.494 7.494 0 0 0-.12 9.78c2.42 2.86 6.54 3.49 9.65 1.58l-.81.78m-1.13 4.88c-4.44 3.73-11.07 3.15-14.8-1.3C1.45 13.64 2.03 7 6.47 3.29l1.11-.79c-3.51 3.8-3.73 9.73-.3 13.82c3.43 4.08 9.31 4.9 13.68 2.11l-.99.95Z"/></svg>
@@ -312,7 +311,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">CentOS</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M5.161 6.25L3.249 8.164V3.227h4.935L6.24 5.172l-.147.146l.147.147l4.514 4.516v.738h-.83L5.457 6.251l-.15-.15l-.146.15Zm5.594 3.142V3.227H8.772l-2.09 2.091l4.073 4.074ZM5.307 6.693L3.25 8.753v1.966h6.083L5.307 6.693Zm7.964 2.67l4.044-4.045l-2.119-2.12h-1.925v6.165Zm4.636-4.045l-.15.147l-4.486 4.49v.764h.786l4.477-4.478l.146-.146l.15.146l1.96 1.96V3.2h-5.005l1.973 1.973l.15.146Zm-6.736-2.51v7l.828.828l.856-.856V2.782h1.924L12 0L9.192 2.807h1.98Zm3.478 7.911h6.141V8.794l-2.11-2.11l-4.031 4.035Zm-4.025 1.292l-.872-.872h-6.92V9.17L0 12.002l2.832 2.832V12.81h6.993l.8-.799Zm2.647 2.68v6.056h1.964l2.045-2.046l-4.009-4.01ZM5.317 17.32l4.092-4.093h-6.16v2.024l2.068 2.069Zm13.364 0l2.11-2.11v-1.983h-6.2l4.09 4.093Zm2.529-2.53l2.787-2.788l-2.787-2.788v1.925h-6.98l-.863.863l.808.808h7.035v1.98Zm-2.53 3.118l-.146-.146L14 13.227h-.729v.875l4.452 4.452l.146.147l-.146.15l-1.897 1.896h4.964v-4.945l-1.96 1.96l-.15.146Zm-5.825 3.256v-6.89l-.872-.872l-.799.799v6.963h-2.04L11.984 24l2.835-2.836h-1.964Zm-6.762-2.463l.147-.147l4.527-4.528v-.8h-.77l-4.534 4.536l-.146.146l-.147-.146l-1.92-1.922v4.907h4.887L6.24 18.85l-.147-.15Zm4.674-4.083L6.682 18.7l2.046 2.046h2.04v-6.13Z"/></svg>
@@ -320,7 +319,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">AWS</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="currentColor" d="M7.64 10.38c0 .25.02.45.07.62c.05.12.12.28.21.46c.04.04.05.1.05.15c0 .07-.04.13-.13.2l-.42.28c-.06.04-.12.06-.17.06c-.07 0-.13-.04-.2-.1c-.09-.1-.17-.2-.24-.31c-.06-.11-.13-.24-.2-.39c-.52.61-1.17.92-1.96.92c-.56 0-1-.16-1.33-.48c-.32-.32-.49-.75-.49-1.29c0-.55.2-1 .6-1.36c.41-.34.95-.52 1.63-.52c.23 0 .44.02.71.06c.23.03.5.08.76.14v-.48c0-.51-.1-.84-.31-1.07c-.22-.21-.57-.3-1.08-.3c-.24 0-.48.03-.72.08c-.25.06-.49.13-.72.23c-.11.04-.2.07-.23.08c-.05.02-.08.02-.11.02c-.09 0-.14-.06-.14-.2v-.33c0-.1.01-.18.05-.23c.03-.05.09-.09.18-.12c.24-.14.51-.24.84-.32a3.9 3.9 0 0 1 1.04-.13c.79 0 1.37.18 1.74.54c.37.36.55.91.55 1.64v2.15h.02m-2.7 1.02c.22 0 .44-.04.68-.12c.24-.08.45-.23.63-.43c.11-.13.19-.27.25-.43c0-.16.05-.35.05-.58v-.27c-.2-.07-.4-.07-.62-.12a6.89 6.89 0 0 0-.62-.04c-.45 0-.77.09-.99.27c-.22.18-.32.43-.32.76c0 .32.07.56.24.71c.16.17.39.25.7.25m5.34.71a.58.58 0 0 1-.28-.06c-.03-.05-.08-.14-.12-.26L8.32 6.65c-.04-.15-.06-.22-.06-.27c0-.11.05-.17.16-.17h.65c.13 0 .22.02.26.07c.06.04.1.13.14.26l1.11 4.4l1.04-4.4c.03-.13.07-.22.13-.26c.05-.04.14-.07.25-.07h.55c.12 0 .21.02.26.07c.05.04.1.13.13.26L14 11l1.14-4.46c.04-.13.09-.22.13-.26c.06-.04.14-.07.26-.07h.62c.11 0 .17.06.17.17c0 .03-.01.07-.02.12c0 0-.02.08-.04.15l-1.61 5.14c-.04.14-.08.21-.15.26c-.04.04-.13.07-.24.07h-.57c-.13 0-.19-.02-.27-.07a.45.45 0 0 1-.12-.26L12.27 7.5l-1.03 4.28c-.03.13-.07.22-.12.27a.49.49 0 0 1-.27.06h-.57m8.55.18c-.33 0-.7-.04-1.03-.12c-.33-.08-.59-.17-.76-.26a.496.496 0 0 1-.21-.19a.392.392 0 0 1-.04-.18v-.34c0-.14.05-.2.15-.2h.12c.04 0 .1.05.17.08c.22.1.47.18.73.23c.27.05.54.08.79.08c.42 0 .75-.07.97-.22c.23-.17.35-.36.35-.63c0-.19-.07-.34-.18-.47c-.12-.12-.35-.24-.67-.34l-.97-.3c-.48-.16-.84-.38-1.06-.68a1.58 1.58 0 0 1-.33-.97c0-.28.06-.52.18-.73c.12-.22.28-.4.46-.55c.22-.15.44-.26.71-.34c.26-.08.54-.12.84-.12c.14 0 .29.01.45.03c.14.02.28.05.42.07c.14.04.26.07.38.11c.12.04.2.08.28.12c.09.05.16.1.2.16c.04.06.06.13.06.22v.32c0 .14-.05.21-.15.21c-.05 0-.14-.03-.26-.08c-.37-.17-.8-.26-1.27-.26c-.38 0-.66.06-.89.19c-.2.12-.31.32-.31.59c0 .19.07.35.2.47c.13.13.38.25.73.37l.95.3c.48.14.82.36 1.03.64c.2.27.3.58.3.93c0 .28-.06.54-.17.77c-.12.22-.28.42-.5.58c-.19.17-.44.29-.72.38c-.28.09-.62.13-.95.13m1.25 3.24C17.89 17.14 14.71 18 12 18c-3.85 0-7.3-1.42-9.91-3.77c-.21-.19-.02-.44.23-.29c2.82 1.63 6.29 2.62 9.89 2.62c2.43 0 5.1-.5 7.55-1.56c.37-.15.68.26.32.53M21 14.5c-.29-.37-1.86-.18-2.57-.1c-.21.03-.24-.16-.05-.3c1.25-.87 3.31-.6 3.54-.33c.24.3-.06 2.36-1.23 3.34c-.19.15-.36.07-.28-.11c.27-.68.86-2.16.59-2.5Z"/></svg>
@@ -328,7 +327,7 @@
                 </div>
                 <div x-data="{open: false}" x-cloak @mouseleave="open = false" class="w-full">
                     <div class="flex flex-col justify-center text-center w-full relative h-20" @mouseover="open = true">
-                        <a class="absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
+                        <a class="text-xs md:text-sm absolute top-0 left-0 w-full bg-black rounded-lg bg-opacity-80 h-full flex flex-col justify-center fade" x-show="open" x-transition.duration.500ms>
                             <span class="">Windows Server</span>
                         </a>
                         <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 16 16"><path fill="currentColor" d="M6.555 1.375L0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4l.026 6.378L16 16V8.395H7.278zM16 0L7.33 1.244v6.414H16V0z"/></svg>
@@ -338,16 +337,14 @@
                     <div class="text-6xl font-bold mx-auto"><i class="fas fa-ellipsis-h"></i></div>
                 </div>
 
-            </div>
-            
-
+            </div>        
         </div>
-        <div class="snap-start w-screen h-screen pt-24 px-10" id="proyectos">
+        <div class="snap-start w-screen h-screen pt-20 sm:pt-24 px-10" id="proyectos">
             <div class="w-full border-b border-white pb-2 border-opacity-25">
                 <span class="text-white font-semibold text-xl">Proyectos</span>
             </div>
-            <div class="owl-carousel py-10">
-                <div class="w-96 rounded overflow-hidden shadow-lg bg-white">
+            <div class="owl-carousel md:py-10 justify-center">
+                <div class="w-96 rounded overflow-hidden shadow-lg bg-white scale-85 md:scale-100">
                     <div class="h-72">
                         <img class="w-full h-full object-cover object-left-top" src="./src/images/cobsis1.png">
                     </div>
@@ -376,7 +373,7 @@
                         </div>
                     </div>
                 </div>    
-                <div class="w-96 rounded overflow-hidden shadow-lg bg-white">
+                <div class="w-96 rounded overflow-hidden shadow-lg bg-white scale-85 md:scale-100">
                     <div class="h-72">
                         <img class="w-full h-full object-cover object-left-top" src="./src/images/clientecob1.png">
                     </div>
@@ -403,7 +400,7 @@
                         </div>
                     </div>
                 </div>          
-                <div class="w-96 rounded overflow-hidden shadow-lg bg-white" style="min-height:40rem;">
+                <div class="w-96 rounded overflow-hidden shadow-lg bg-white scale-85 md:scale-100" style="min-height:40rem;">
                     <div class="h-72">
                         <img class="w-full h-full object-cover object-left-top" src="./src/images/powa1.png">
                     </div>
@@ -425,7 +422,7 @@
                         </div>
                     </div>
                 </div>   
-                <div class="w-96 rounded overflow-hidden shadow-lg bg-white" style="min-height: 40rem;">
+                <div class="w-96 rounded overflow-hidden shadow-lg bg-white scale-85 md:scale-100" style="min-height: 40rem;">
                     <div class="h-72">
                         <img class="w-full h-full object-cover object-left-top" src="./src/images/Cinemacloud2.png">
                     </div>
@@ -475,13 +472,27 @@
 
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+                scale: {
+                    '85': '.85',
+                }
+            }
+        }
+        }
+    </script>
+
 
     <script>
         $('.owl-carousel').owlCarousel({
             margin:50,
             loop:false,
             autoWidth:true,
-            items:4
+            items:4,
+            center: true
         })
     </script>
 
